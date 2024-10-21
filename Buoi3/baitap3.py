@@ -23,9 +23,9 @@ files_collection.insert_many(files_data)
 
 # Tim tep co size lon hon 2000
 print("Tep co size lon hon 2000")
-# sizes = files_collection.find({'size':{'$gt':2000}})
-# for size in sizes:
-#     print(size)
+sizes = files_collection.find({'size':{'$gt':2000}})
+for size in sizes:
+    print(size)
 
 # 3.3 Tim tat ca cac tep duoc chia se
 print("Dem so file ")
